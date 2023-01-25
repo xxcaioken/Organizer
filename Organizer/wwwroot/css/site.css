@@ -20,3 +20,48 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+organizador {
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+
+div.organizador > h1 {
+    position: absolute
+}
+
+div.organizador > a.semanal {
+    position: relative;
+    margin-left: 1100px;
+    top:15px;
+}
+
+div.organizador > a.mensal {
+    position: relative;
+    margin-left: 1270px;
+    bottom: 15px;
+}
+
+table.daysWeakly {
+    border-collapse: collapse;
+    color: white;
+    background-color: #faaa8d;
+}
+
+.headcol {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0.25rem 0;
+    text-align: center;
+    border: 0;
+    position: relative;
+    top: -12px;
+    border-bottom: 1px solid transparent;
+}
+
+th, td {
+    font-weight: bold;
+    padding:87px;
+    margin-inline:1px;
+}

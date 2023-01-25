@@ -22,6 +22,10 @@ namespace Organizer.Controllers
         {
             return View();
         }
+        public IActionResult Organizador()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
